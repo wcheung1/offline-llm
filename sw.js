@@ -1,6 +1,6 @@
 // Keeps the app itself available offline (model files are cached separately by the engines),
 // and adds cross-origin-isolation headers so the CPU engine can use several threads.
-const CACHE = "daai-ai-v4";
+const CACHE = "daai-ai-v5";
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./wllama.wasm"];
 
 self.addEventListener("install", (e) => {
